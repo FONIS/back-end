@@ -1,0 +1,29 @@
+{
+    "_id": {
+        "$oid": "5e668cb6411d8233048d1464"
+    },
+    "tip": {
+        "nazivTipa": "Radionica",
+        // "idProjekta": {
+        //     "$oid": "5e668f2eef81fb3304c2a307" //sto nam treb ovaj id? mislim odakle dolazi?
+        // }
+    },
+    "vremePocetka": {
+        "$date": {
+            "$date": "2020-02-20T23:00:00.000Z"
+        }
+    },
+    "vremeKraja": {
+        "$date": {
+            "$date": "2020-02-20T23:00:00.000Z"
+        }
+    },
+
+    // mozda nam treba i nesto kao predavac ili organizator samo kao id da dolazi iz clanova?
+    
+    "organizatori": [{
+        "$oid": "5e6686d8ef81fb5504c2a304"
+    }, {
+        "$oid": "5e6686d8ee31fb3304c2a304"
+    }]
+}

@@ -1,0 +1,43 @@
+{
+    "_id": {
+        "$oid": "5e668cb6411d8233048d1464"
+    },
+    "ime": "Jelena",
+    "prezime": "Milev",
+    "tip": "Admin",
+    "clanOd": {
+        "$date": {
+            "$date": "2016-02-20T23:00:00.000Z"
+        }
+    },
+    "clanDo":  {
+        "$date": {
+            "$date": "2020-02-20T23:00:00.000Z"
+        }
+    },
+    "godinaStudija": 4,
+    "projektiNaKojimaJeUcestvovao": [
+        {
+            "$oid": "5e6686d9ef81k65504c2a304"
+        },
+        {
+            "$oid": "5e6686d8ee31fb3484c2a304"
+        }
+    ],
+    "radioniceNaKojeJeDolazio": [
+        {
+            "$oid": "5e6386d8ef81k65504c2a304"
+        },
+        {
+            "$oid": "5e6696d8ee31fb3484c2a304"
+        }
+    ],
+    "radioniceKojeJeDrzao": [
+        {
+            "$oid": "5e6586d8ef81k65504c2a304"
+        },
+        {
+            "$oid": "5e6686d8ee31fb3984c2a304"
+        }
+    ]
+}

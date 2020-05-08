@@ -1,0 +1,127 @@
+{
+    "_id": {
+        "$oid": "5e668cb6411d8233048d1464"
+    },
+    "naziv": "SOF",
+    "slogan": "Can we help you with the slogan",
+    "linkovi": {
+        "sajt": "https://fonis.rs/",
+        "facebook": "https://www.facebook.com/fonis.rs/",
+        "instagram": "https://www.instagram.com/fonis_fon/"
+    },
+    "logo": "link do logoa",
+    "lokacija": "Studentsko odmaralište Ratko Mitrović, Zlatibor",
+    "datumOdrzavanja": {
+        "pocetak": {
+            "$date": "2020-02-20T23:00:00.000Z"
+        },
+        "kraj": {
+            "$date": "2020-02-23T23:00:00.000Z"
+        }
+    },
+    "organizacioniTim": [{ //da li org tim i koordinatori postoje za sof?
+        "clan": {
+            "$oid": "5e668f2eef81fb3304c2a307"
+        },
+        "tim": {
+            "$oid": "5e668f33ef81fb3304c2a308"
+        }
+    }, {
+        "clan": 123,
+        "tim": 12346
+    }],
+    "koordinatori": [{
+        "$oid": "5e6686d8ef81fb5504c2a304"
+    }, {
+        "$oid": "5e6686d8ee31fb3304c2a304"
+    }],
+    "opisProjekta": "O projektu",
+    "faq": [{
+    "pitanje": "odgovor"
+    }, {
+    "pitanje": "odgovor"
+    }],
+    "kontakt": {
+        "adresa": "Fakultet organizacionih nauka, Jove Ilića 154, Beograd",
+        "mejl": "fonis@fonis.rs"
+    },
+    "timeline": [{
+        "datumOd": {
+            "$date": "2020-05-18T16:00:00.000Z"
+        },
+        "datumDo": {
+            "$date": "2020-05-30T16:00:00.000Z"
+        },
+        "opisAktivnosti": "kreirati master plan",
+        "odgovornaOsoba": {
+            "$oid": "5e6686d8ee31fb3304c2a304"
+        }
+    }],
+    "agenda": [{
+        "datum": {
+            "$date": "2020-05-18T16:00:00.000Z"
+        },
+        "vremeOd": {
+            "$timestamp": {
+                "t": 1,
+                "i": 0
+            }
+        },
+        "vremeDo": {
+            "$timestamp": {
+                "t": 1,
+                "i": 0
+            }
+        },
+        "opisAktivnosti": "otvaranje"
+    }],
+    "radionice":[{
+        "naziv":"Soft skils radionica - Kako napraviti CV",
+        "predavac":{
+            "$oid":"5f4686d8ef81fb5504c2b304"
+        }
+    },
+    {
+        "naziv":"IT radionica - How to automate the boring stuff",
+        "predavac":{
+            "$oid":"5f4686d8ef81db5504c2b304"
+        }
+    },
+    {
+        "naziv":"Forum teatar radionica",
+        "predavac":{
+            "$oid":"5f4786d8ef81fb5504c2b304"
+        }
+    },
+    {
+        "naziv":"Panel diskusija - Zasto učestvovati na hakatonu?",
+        "predavac":{
+            "$oid":"5f4686d8ef81fb5504c2b304"
+        }
+    }],
+
+    "igrice":[{
+        "naziv":"Igrice za zagrevanje"
+    },
+    {
+        "naziv":"Room crawl"
+    },
+    {
+        "naziv":"Casino night"
+    }],
+
+    //sta su kolicine?
+
+    "ucesnici": [{
+        "$oid": "5e6686d8ef81fb5504c2a304"
+    }, {
+        "$oid": "5e6686d8ee31fb3304c2a304"
+    }],
+    "fotografija": "link do drive-a",
+
+    "partneri": [{ //da li postoje partneri za sof?
+    "$oid": "5e6686d8ef81fb5504c2a304"
+    }, {
+    "$oid": "5e6686d8ee31fb3304c2a304"
+    }]
+}

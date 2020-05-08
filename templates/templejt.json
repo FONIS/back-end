@@ -1,0 +1,112 @@
+{
+    "_id": {
+        "$oid": "5e668cb6411d8233048d1464"
+    },
+    "naziv": "Templejt naziv",
+    "slogan": "Can we help you with the slogan",
+    "linkovi": {
+        "sajt": "link do sajta",
+        "facebook": "link do sajta",
+        "instagram": "link do sajta"
+    },
+    "logo": "link do logoa",
+    "lokacija": "Nordeus HUB, Beograd",
+    "datumOdrzavanja": {
+        "pocetak": {
+            "$date": "2020-05-30T16:00:00.000Z"
+        },
+        "kraj": {
+            "$date": "2020-05-30T16:00:00.000Z"
+        }
+    },
+    "organizacioniTim": [
+        {
+            "clan": {
+                "$oid": "5e668f2eef81fb3304c2a307"
+            },
+            "tim": {
+                "$oid": "5e668f33ef81fb3304c2a308"
+            }
+        },
+        {
+            "clan": {
+                "$numberInt": "123"
+            },
+            "tim": {
+                "$numberInt": "12346"
+            }
+        }
+    ],
+    "koordinatori": [
+        {
+            "$oid": "5e6686d8ef81fb5504c2a304"
+        },
+        {
+            "$oid": "5e6686d8ee31fb3304c2a304"
+        }
+    ],
+    "opisProjekta": "O projektu",
+    "faq": [
+        {
+            "pitanje": "odgovor"
+        },
+        {
+            "pitanje": "odgovor"
+        }
+    ],
+    "kontakt": {
+        "adresa": "adresa organizacije",
+        "mejl": "fonis@fonis.rs"
+    },
+    "timeline": [
+        {
+            "datumOd": {
+                "$date": "2020-05-30T16:00:00.000Z"
+            },
+            "datumDo": {
+                "$date": "2020-05-30T16:00:00.000Z"
+            },
+            "opisAktivnosti": "kreirati master plan",
+            "odgovornaOsoba": {
+                "$oid": "5e6686d8ee31fb3304c2a304"
+            }
+        }
+    ],
+    "agenda": [
+        {
+            "datum": {
+                "$date": "2020-05-30T16:00:00.000Z"
+            },
+            "vremeOd": {
+                "$timestamp": {
+                    "t": 0,
+                    "i": 1
+                }
+            },
+            "vremeDo": {
+                "$timestamp": {
+                    "t": 0,
+                    "i": 1
+                }
+            },
+            "opisAktivnosti": "otvaranje"
+        }
+    ],
+    "ucesnici": [
+        {
+            "$oid": "5e6686d8ef81fb5504c2a304"
+        },
+        {
+            "$oid": "5e6686d8ee31fb3304c2a304"
+        }
+    ],
+    "fotografija": "link do drive-a",
+    "partneri": [
+        {
+            "$oid": "5e6686d8ef81fb5504c2a304"
+        },
+        {
+            "$oid": "5e6686d8ee31fb3304c2a304"
+        }
+    ]
+}
