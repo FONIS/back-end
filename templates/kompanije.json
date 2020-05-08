@@ -1,0 +1,16 @@
+{
+    "_id": {
+        "$oid": "5e225cb88311d8233048d1464"
+    },
+    "naziv": "Naziv kompanije",
+    "linkovi": {
+        "sajt": "link sajta kompanije",
+        "facebook": "facebook link",
+        "instagram": "instagram link" 
+    },
+    "kontakt": {
+        "adresa": "adresa/lokacija",
+        "mejl": "mejl kompanije",
+        "telefon":12345
+    }
+}

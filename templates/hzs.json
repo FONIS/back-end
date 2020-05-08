@@ -1,0 +1,191 @@
+{
+    "_id": {
+        "$oid": "5e668cb6411d8233048d1464"
+    },
+    "naziv": "Hakaton za srednjoškolce",
+    "slogan": "Bring IT on",
+    "linkovi": {
+        "sajt": "https://hzs.fonis.rs",
+        "facebook": "https://www.facebook.com/fonis.rs/",
+        "instagram": "https://www.instagram.com/hakaton_za_srednjoskolce/" 
+    },
+    "logo": "link do logoa",
+    "lokacija": "Fakultet Organizacionih Nauka, Beograd",
+    "datumOdrzavanja": {
+        "pocetak": {
+            "$date": "2020-10-23T23:00:00.000Z"
+        },
+        "kraj": {
+            "$date": "2020-12-07T23:00:00.000Z"
+        }
+    },
+    "organizacioniTim": [
+        {
+            "clan": {
+                "$oid": "5e668f2eef81fb3304c2a307"
+            },
+            "tim": {
+                "$oid": "5e668f33ef81fb3304c2a308"
+            }
+        }
+    ],
+    "koordinatori": [
+        {
+            "$oid": "5e6686d8ef81fb5504c2a304"
+        },
+        {
+            "$oid": "5e6686d8ee31fb3304c2a304"
+        }
+    ],
+    "opisProjekta": "Hakaton za srednjoškolce je projekat koji se po drugi put održava na Fakultetu organizacionih nauka. Namenjen je učenicima srednjih škola sa teritorije Srbije koji su spremni da primene postojeće znanje u praksi i nauče nešto novo u oblasti informacionih tehnologija. Projekat se sastoji iz dva dela – radionica, na kojima će srednjoškolci naučiti osnovne stvari o programerskoj logici i sintaksi, i takmičenja, na kome će timovi za 24 časa naći idejna rešenja na zadati problem primenom znanja stečenog na radionicama i uz pomoć mentora.",
+    "faq": [
+        {
+            "pitanje1": "Ko se može prijaviti",
+            "odgovor1": "Pravo na učešće imaju isključivo učenici srednjih škola iz Republike Srbije. Prijavljivanje nije individualno, već se zainteresovani prijavljuju kao tim od troje ili četvoro. Sama prijava i učešće su besplatni, a forma za prijavu se može naći na sajtu pod nazivom ,,Prijava’’."
+        },
+        {
+            "pitanje2": "Na osnovu čega se vrši selekcija timova?",
+            "odgovor2": "Najpre se radi online test, od kojih samo najboljih 16 timova ostvaruju pravo da pristustvuju radionicama. Na kraju radionicama se takmičarima zadaje projektni zadatak. Prvih 8 timova sa najbolje urađenim zadatkom se plasira na hakaton. Takođe se uzima u obzir anganžman tima i svakog člana ponaosob"
+        },
+        {
+            "pitanje3": "Da li se mogu naći u finalu dva tima iz iste srednje škole?",
+            "odgovor3": "Ne, u finale se može plasirati samo jedan tim iz određene srednje škole."
+        },
+        {
+            "pitanje4": "Kako izgleda finale?",
+            "odgovor4": "Prilikom prezentovanja finalnih rešenja, takmičari imaju 10 minuta za prezentovanje svog rešenja stručnom žiriju, nakon čega žiri ima 5 minuta za dodatna pitanja koja postavlja timu"
+        },
+        {
+            "pitanje5": "Da li takmičari dobijaju neku pomoć u toku takmičenja?",
+            "odgovor5": "Da, svaki od timova dobija po jednog mentora, koji će u toku trajanja hakatona sve vreme biti uz njih i usmeravati ih, davati im korisne komentare i sugestije kako bi tim što bolje odgovorio na zadatak."
+        },
+        {
+            "pitanje6": "Koje tehnologije su prihvatljive za korišćenje na hakatonu?",
+            "odgovor6": "Takmičari će imati priliku da koriste tehnologije po svom izboru. Dozvoljeno je korišćenje interneta u svrhu učenja i traženja informacija koje su relevantne za takmičenje."
+        },
+        {
+            "pitanje7": "Da li je potrebno da takmičare nose svoju opremu?",
+            "odgovor7": "Nije neophodno da takmičari nose svoju opremu. Moguće je raditi na računarima obezbeđenim od strane organizatora, ali nije dozvoljena instalacija dodatnog softvera. Organizator je takođe u mogućnosti da obezbedi dodatne miševe, tastature i s"
+        },
+        {
+            "pitanje8": "Da li je potrebno nositi hranu i piće?",
+            "odgovor8": "Nije neophodno. Hrana i piće su obezbeđeni od strane organizatora."
+        }
+    
+    ],
+    "kontakt": {
+        "adresa": "Jove Ilića 154, Beograd",
+        "mejl": "hzs@fonis.rs"
+    },
+    "timeline": [
+        {
+            "datumOd": {
+                "$date": "2020-05-18T16:00:00.000Z"
+            },
+            "datumDo": {
+                "$date": "2020-05-30T16:00:00.000Z"
+            },
+            "opisAktivnosti": "kreirati master plan",
+            "odgovornaOsoba": {
+                "$oid": "5e6686d8ee31fb3304c2a304"
+            }
+        }
+    ],
+    "agenda": [
+        {
+            "datum": {
+                "$date": "2020-05-18T16:00:00.000Z"
+            },
+            "vremeOd": {
+                "$timestamp": {
+                    "t": 1,
+                    "i": 0
+                }
+            },
+            "vremeDo": {
+                "$timestamp": {
+                    "t": 1,
+                    "i": 0
+                }
+            },
+            "opisAktivnosti": "otvaranje"
+        }
+    ],
+    "ucesnici": [
+        {
+            "$oid": "5e6686d8ef81fb5504c2a304"
+        },
+        {
+            "$oid": "5e6686d8ee31fb3304c2a304"
+        }
+    ],
+    "fotografija": "link do drive-a",
+    "partneri": [
+        {
+            "$oid": "5e6686d8ef81fb5504c2a304"
+        },
+        {
+            "$oid": "5e6686d8ee31fb3304c2a304"
+        }
+    ],
+
+
+
+    "radionice":[
+        {
+            "naziv":"Naziv",
+            "tehnologija": "Naziv tehnologije",
+            "predavac":{
+                "$oid":"5e2226d8ee31fb3304c2a304"
+            }
+        }
+    ],
+
+    "timski-mentori":[
+        {
+        "$oid":"5e2226d8ee31lz3304c2a304"
+        }
+    ],
+
+    "strucni-mentori":[
+        {
+        "$oid":"5e2226d8ee31lz3304c2a304"
+        }
+    ],
+    
+    "predavaci":[
+        {
+        "$oid":"3o2226d8ee31lz3304c2a304"
+        }
+    ],
+
+    "ziri":[
+        {
+        "ime-prezime":"Ime i prezime",
+        "kompanija":{
+            "$oid":"3o2226d1aa31lz3304c2a304"
+        }      
+        }
+    ],
+    
+    "tim":[
+        {
+            "naziv-tima": "Naziv",
+            "clanovi":[
+                {
+                    "ime-clana":"ime",
+                    "skola":{
+                        "$oid":"3o9926d1aa31lz3304c2a304"
+                    }  
+                }
+            ]           
+        }
+    ],
+
+    "tema":"Naziv teme",
+
+    
+    "pravilnik":"pravilnik"
+
+
+}
